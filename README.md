@@ -1,4 +1,4 @@
-accessible-html5-video-player
+#Accessible HTML5 Video Player
 =============================
 
 The National Vocational Education and Training (VET) E-learning Strategy’s New Generation Technologies project manages the E-standards for Training - a set of technical standards recommended for use in the VET sector. (More info at http://e-standards.flexiblelearning.net.au)
@@ -12,7 +12,7 @@ Screen reader accessible
 Font colour, size and typeface for captions can be personalised
 Support for audio description
 
-Restrictions:
+##Restrictions
 
 Requires that JavaScript is enabled
 Does not work on mobile devices (which take control with their native players)
@@ -29,7 +29,7 @@ text/vtt .vtt
 text/x-component.htc .htc
 application/x-shockwave-flash swf
 
-Known issues we hope to address:
+#Known issues we hope to address:
 
 Focus indicator on Closed Caption appearance settings
 Stream video published on YouTube and/or Vimeo through this player
