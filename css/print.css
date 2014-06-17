@@ -1,0 +1,13 @@
+.transcript{
+	width:100%;
+	display:block;
+}
+.transcript img{display:block;}
+.accessVid video, .vidControls, SubtitleContainer{display:none;}
+.accessVid{
+	position:static;	
+	width:720px;
+	height:100%;
+	/*margin bottom 50px is approx the size of the vidControls*/
+	margin-bottom:0px;
+}

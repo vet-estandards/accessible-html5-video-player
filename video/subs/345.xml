@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1"
+    xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+  <head>
+    <styling>
+    </styling>
+  </head>
+  <body>
+   <div xml:lang="en">
+      <p begin=".5" dur="6.5">We often have the need to set out a building and make sure that when we do set it out that it's square,</p>
+      <p begin="7" dur="4">tiles and kitchens everything like that, based on the principle that the building is going to be square.</p>
+      <p begin="11" dur="4">To get it square we'll use a method called 3, 4, 5,</p>
+      <p begin="15" dur="4">and now I'm going to give you a demonstration how to set up a 3, 4, 5 triangle.</p>
+      <p begin="19" dur="4">Ok so what I've put down here first of all is put a peg in at the desired point,</p>
+      <p begin="23" dur="4">and then I've come along and measured the second point 4 m along </p>
+      <p begin="27" dur="5">and put another peg in over here.</p>
+      <p begin="32" dur="4">From there we're going to run a string line along that 4 m line.</p>
+      <p begin="48" dur="8">Ok. So we've got a line here 4 m, and now we need to make a line out this way 3 m,</p>
+      <p begin="56" dur="3">and at the same time we want to make another line,</p>
+      <p begin="59" dur="7">the hypotenuse, that goes from that point out 5 m and join the two together.</p>
+      <p begin="75" dur="4">So we've got 3 m. What have we got there?</p>
+      <p begin="79" dur="6">Ok, so we've come along that line 3 m and we've come of the other point 5 m, </p>
+      <p begin="85" dur="5">if we line those two points up that will be exactly a right angle triangle.</p>
+      <p begin="90" dur="10">So now were going to extend our line along the 3 m line, ok, and tie it off down here.</p>
+      <p begin="114" dur="4.5">Ok, so what we have now is one side that's 4 m long, </p>
+      <p begin="118.5" dur="5.5">we got the other side 3 m long, and the third side is now 5 m long. </p>
+      <p begin="124" dur="4">If we wanted to check out to see if our triangle is square,</p>
+      <p begin="128" dur="4">we can come on over and use a builder's square and see that it actually is.</p>
+      <p begin="136" dur="7">So, placing it down, running it to one side, we can see that the other side's square as well.</p>
+    </div>
+  </body>
+</tt>
+

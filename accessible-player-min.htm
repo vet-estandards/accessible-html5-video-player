@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>E-standards for Training Accessible HTML5 Video Player</title>
+
+<link rel="stylesheet" type="text/css" href="css/ui-lightness/jquery-ui-1.10.1.custom.min.css">
+<link rel="stylesheet" type="text/css" href="css/videoplayer.css">
+<link rel="stylesheet" type="text/css" href="css/your-site-css-file.css"> <!-- CHANGE THE HREF TO POINT TO YOUR CSS -->
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+<script type="text/javascript" src="js/swfobject/swfobject.js"></script>
+<script src="js/jquery-1.7.2.min.js" type="text/javascript" language="javascript"></script>
+<script src="js/jquery-ui-1.10.1.custom.min.js" type="text/javascript" language="javascript"></script>
+<script src="js/jquery.fullscreen-min.js" type="text/javascript" language="javascript"></script>
+<script src="js/access.js" type="text/javascript" language="javascript"></script>
+<!--
+Developed by Sean Norrey from Kangan Institute.
+Funded by the National VET E-learning Strategy through the New Generation Technologies business activity's Emerging Technology Trials (2012-2013).
+© Commonwealth of Australia 2013, Licensed under Creative Commons Attribution-ShareAlike 3.0 Australia License.
+-->
+</head>
+
+<body>
+<!-- wrapper is used for layout purposes on this page only, it is not needed in your site. Only the <div class="accessVid", video and audio tags are required -->
+<div id="wrapper">
+
+
+<h1><a href="http://e-standards.flexiblelearning.net.au"><img src="images/eft-reverse.png" alt="E-standards for Training" width="154" height="33"></a>  Accessible HTML5 Video Player</h1>
+
+<p><a href="video/subs/345-transcript.htm">Transcript for following video.</a></p>
+
+
+<!-- To create an accessible player just copy and paste the code between the comments in to your page, change the path to the files as needed -->
+<div class="accessVid" role="application" tabindex="0">
+<!-- CHANGE THE CONTENTS OF THE TITLE ATTRIBUTE IN THE FOLLOWING LINE TO SUIT -->
+<video width="100%" height="100%" tabindex="0" poster="images/poster-frame.png" title="This video describes the 3 4 5 principle." preload>  
+	<!-- CHANGE SRC ATTRIBUTE IN THE LINE BELOW TO POINT TO YOUR MP4 FILE -->
+    <source src="video/345.mp4" type="video/mp4" />  
+    <!-- CHANGE SRC ATTRIBUTE IN THE LINE BELOW TO POINT TO YOUR WEBM FILE -->                                                  
+    <source src="video/345.webm" type="video/webm" />
+    <!-- CHANGE SRC ATTRIBUTE IN THE LINE BELOW TO POINT TO SRC TO YOUR CAPTION VTT FILE -->
+    <track src="video/subs/345.vtt" kind="subtitle" />                                                                                      
+      
+      <div class="FlashPlayer">
+            <p class="videoPlayerLocation">flashplayer/videoplayer.swf</p>
+            <p class="videoPlayerControlsLocation">flashplayer/controls.swf</p>
+            <!-- CHANGE SRC ATTRIBUTE IN THE LINE BELOW TO POINT TO YOUR MP4 FILE. THIS PATH IS RELATIVE TO THE videoPlayerLocation ABOVE -->
+            <p class="videoSourceFileLocation">../video/345.mp4</p>
+            <!-- CHANGE SRC ATTRIBUTE IN THE LINE BELOW TO POINT TO YOUR XML FOR FLASH CAPTIONFILE -->
+            <p class="videoCaptionsFileLocation">video/subs/345.xml</p>
+            <p class="videoControlsColour">#262626</p>
+      </div> 
+
+    </video> 
+        
+    <audio controls>
+    	<!-- CHANGE THE SRC ATTRIBUTE IN THE LINE BELOW TO POINT TO YOUR AUDIO DESCRIPTION OGG FILE -->
+        <source src="video/345-ad.ogg" type="audio/ogg">
+        <!-- CHANGE THE SRC ATTRIBUTE IN THE LINE BELOW TO POINT TO YOUR AUDIO DESCRIPTION MP3 FILE -->
+        <source src="video/345-ad.mp3" type="audio/mpeg"> 
+        Your browser does not support the audio element.
+    </audio>
+    
+</div>
+
+<!-- end -->
+<p>&copy; Commonwealth of Australia 2013, Licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/au/">Creative Commons Attribution-ShareAlike 3.0 Australia License.</a></p>
+</div>
+</body>
+</html>
