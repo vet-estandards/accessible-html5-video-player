@@ -39,3 +39,4 @@ We believe the player has the following attributes:
 
 The player is distributed under the following license:
 © Commonwealth of Australia 2013, Licensed under [Creative Commons Attribution-ShareAlike 3.0 Australia License] (https://creativecommons.org/licenses/by-sa/3.0/au/legalcode).
+Original author: Sean Norrey of Kangan Institute
