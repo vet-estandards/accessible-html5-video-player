@@ -33,7 +33,7 @@ We believe the player has the following attributes:
 
 * Focus indicator on Closed Caption appearance settings
 * Stream video published on YouTube and/or Vimeo through this player
-* Bug which results in two instances of the player controls after returning from full screen video
+* Bug which results in two instances of the player controls after returning from full screen video in some browsers.
 
 ##License
 
